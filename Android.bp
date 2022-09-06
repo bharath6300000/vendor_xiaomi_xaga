@@ -36,16 +36,6 @@ android_app_import {
 	privileged: true,
 }
 
-android_app_import {
-	name: "MiuiCamera",
-	owner: "xiaomi",
-	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera.apk",
-	certificate: "OVERRIDES=Snap,GoogleCameraGo,Camera2",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
 
 android_app_import {
 	name: "IFAAService",
@@ -349,14 +339,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "manifest_vendor.xiaomi.hardware.otrpagent@2.0",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
 
 prebuilt_etc_xml {
 	name: "manifest_wechat",
