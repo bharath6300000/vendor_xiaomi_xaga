@@ -2987,7 +2987,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/mt6895/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6895/vendor.mediatek.hardware.pq@2.13-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/mt6895/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6895/vendor.mediatek.hardware.pq@2.13-impl.so \
-    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/sensors.mt6895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6895.so \
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/sensors.mediatek.V2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mediatek.V2.0.so \
 
 PRODUCT_PACKAGES += \
     libpowerhal \
