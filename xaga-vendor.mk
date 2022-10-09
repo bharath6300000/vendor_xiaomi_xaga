@@ -2987,7 +2987,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/mt6895/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6895/vendor.mediatek.hardware.pq@2.13-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/mt6895/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6895/vendor.mediatek.hardware.pq@2.13-impl.so \
-    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
+    vendor/xiaomi/xaga/proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.mediatek \
+    vendor/xiaomi/xaga/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
+
 
 PRODUCT_PACKAGES += \
     libpowerhal \
