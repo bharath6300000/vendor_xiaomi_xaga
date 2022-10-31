@@ -1387,6 +1387,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/sensors.elliptic@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.elliptic@2.0.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal_hal.so \
+    vendor/xiaomi/xaga/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
@@ -1644,6 +1645,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/lib/libvcodec_utility_plat.mt6983.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility_plat.mt6983.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libviagpsrpc.so \
+    vendor/xiaomi/xaga/proprietary/vendor/lib/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibrator.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_aa.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_dd.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_ha.so \
@@ -2133,6 +2135,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/sensors.mediatek.V2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mediatek.V2.0.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.default.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal_hal.so \
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.1-impl.so \
@@ -2493,6 +2496,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/libtrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrm.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall.so \
+    vendor/xiaomi/xaga/proprietary/vendor/lib64/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibrator.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_oal.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodecdrv_header_stub.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
