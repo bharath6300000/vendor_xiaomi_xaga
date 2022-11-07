@@ -2982,7 +2982,6 @@ PRODUCT_PACKAGES += \
     ImsService \
     MiuiCamera \
     IFAAService \
-    MipayService \
     SensorTestTool \
     SoterService \
     mediatek-common \

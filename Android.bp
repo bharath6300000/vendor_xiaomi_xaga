@@ -49,16 +49,16 @@ android_app_import {
 }
 
 android_app_import {
-	name: "MipayService",
+	name: "MiuiCamera",
 	owner: "xiaomi",
-	apk: "proprietary/vendor/app/MipayService/MipayService.apk",
+	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera.apk",
+	overrides: ["Snap", "GoogleCameraGo", "Camera2"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	soc_specific: true,
+	privileged: true,
 }
-
 android_app_import {
 	name: "SensorTestTool",
 	owner: "xiaomi",
