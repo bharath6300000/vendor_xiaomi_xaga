@@ -22,3 +22,4 @@ service vibratorfeature-hal-service /vendor/bin/hw/vendor.xiaomi.hardware.vibrat
     user system
     group system input
     onrestart restart vibratorfeature
+
